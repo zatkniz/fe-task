@@ -1,0 +1,33 @@
+{
+  "name": "fe-candidate-javascript-task",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "db": "json-server db.json"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "core-js": "^2.6.5",
+    "json-server": "^0.15.1",
+    "moment": "^2.24.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3",
+    "vuetify": "^2.1.0",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "bulma": "^0.7.5",
+    "deepmerge": "^4.2.2",
+    "fibers": "^4.0.2",
+    "node-sass": "^4.9.0",
+    "sass": "^1.24.4",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-vuetify": "^2.0.3",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.3.0"
+  }
+}
